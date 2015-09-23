@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
    pthread_join(id, NULL);
    gettimeofday(&tv3, NULL);
 
-   printf("thread create %ld us tremination %ld\n", 
+   printf("thread create %ld us termination %ld\n", 
           (tv2.tv_sec - tv1.tv_sec)*1000000UL+
           (tv2.tv_usec - tv1.tv_usec),
           (tv3.tv_sec - tv2.tv_sec)*1000000UL+
