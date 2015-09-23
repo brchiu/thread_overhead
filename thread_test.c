@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
           (tv2.tv_sec - tv1.tv_sec)*1000000UL+
           (tv2.tv_usec - tv1.tv_usec),
           (tv3.tv_sec - tv2.tv_sec)*1000000UL+
-          (tv2.tv_usec - tv1.tv_usec));
+          (tv3.tv_usec - tv2.tv_usec));
 
    return 0;
 }
